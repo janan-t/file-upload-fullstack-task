@@ -105,7 +105,19 @@ The project repository on GitHub is organized as follows:
   - `frontend/`
   - `data/`
 - Add a Comprehensive README files in both the frontend & backend folders 
-- A working application that:
+  - **Research Decision Record:**  
+  In both the frontend and backend README files, include a short paragraph explaining your technical choices:  
+  "I chose [Solution X] over [Solution Y] because..." —
+- **Include your AI conversation:**  
+  Export your conversation with the AI assistant to demonstrate how you approached solving complex problems. We want to see whether you treated it like a StackOverflow search or as a pair programmer.
+  - If using **GitHub Copilot**: Use the **Chat Export** feature (chat.json)
+  - If using **Cursor**: Use the **Export Transcript** option
+  - If using another editor: Find the appropriate export method for your tool
+- **Demo Video:**  
+  Include a 60-second Loom/video recording demonstrating the working application.
+- **Hosting (Optional):**  
+  Hosting the application online is optional but appreciated. You should choose any free tier hosting provider of your choice.
+- **A working application** that:
   - Supports large CSV file uploads with the ability to handle multiple files concurrently.
   - Displays upload and processing progress through progress bars.
   - Accurately reports upload and processing times.
